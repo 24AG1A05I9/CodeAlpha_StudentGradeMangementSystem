@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Grade Management System</h1>
+
+    <input type="text" id="studentName" placeholder="Enter Student Name">
+
+    <input type="number" id="studentGrade" placeholder="Enter Grade">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <button onclick="generateReport()">Generate Report</button>
+
+    <h2>Student Records</h2>
+
+    <table id="studentTable">
+
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+
+    </table>
+
+    <div id="report"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
